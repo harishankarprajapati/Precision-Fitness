@@ -958,3 +958,7 @@ a {
    color: #96a2a7;
  }
  /* back to top-end */
+
+ #secmobile{
+display: none;
+ }

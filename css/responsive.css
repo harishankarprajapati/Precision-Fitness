@@ -1,5 +1,3 @@
-
-
 /* -------1920--------- */
 
 @media only screen and (min-width:1920px) {
@@ -10,7 +8,7 @@
   }
 
 
-/* .secwhitpad{
+  /* .secwhitpad{
   width: 1480px !important;
   margin: auto;
 } */
@@ -18,15 +16,11 @@
 
 
 
-@media only screen and (max-width:1440px) {
-
-  }
+@media only screen and (max-width:1440px) {}
 
 
 /* 1024 */
-@media only screen and (min-width:1024px) {
- 
-}
+@media only screen and (min-width:1024px) {}
 
 
 
@@ -34,304 +28,331 @@
 
 
 @media only screen and (max-width:768px) {
-  .hero-bg {
-    background-image: url(../images/mobilehemobg.png) !important;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-    padding: 0;
- }
- .navbar-expand-xl .navbar-nav {
-  flex-direction: column;
-  display: flex;
-  justify-content: flex-end !important;
-}
+  .sec-logo-img {
+    width: 50%;
+  }
 
-.secwhitpad {
-  width: 100% !important;
-}
- .paddhero2 {
-  padding-top: 10px !important;
+  .navbar-expand-xl .navbar-nav {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end !important;
+  }
+
+  .secwhitpad {
+    width: 100% !important;
+  }
+
+  .paddhero2 {
+    padding-top: 10px !important;
     padding: 0px;
-}
-.paddhero {
-  padding-top: 170px;
-}
-.secmodihid{
-  display: none;
-}
+  }
 
-a.navbar-brand {
-  width: 66% !important;
-}
-.navbar-brand{
-  padding: 0;
-}
-button.navbar-toggler {
-  border: 1px solid #fff;
-  margin-top: 17px;
-}
-.offcanvas-header {
-  background: #000;
-}
-.headermenusec {
-  color: #000;
-}
-.navbar-nav>li>a {
-  padding-top: 0px; 
-  padding-bottom: 0px; 
-  line-height: 40px; 
-}
-.navbar-nav {
-  margin: 0;
-}
-.secheaderbtn{
-  background:transparent !important;
-    padding: 0px 0px 0px 14px  !important;
-    color: #000 !important;
-    font-size: 18px !important;
-}
- .martext {
-  font-size: 18px;
-  padding: 0px 0px;
-  font-weight: 500;
-  display: flex;
+  .paddhero {
+    padding-top: 170px;
+  }
+
+  .secmodihid {
+    display: none;
+  }
+
+  a.navbar-brand {
+    width: 77% !important;
+  }
+
+  .navbar-brand {
+    padding: 0;
+  }
+
+  button.navbar-toggler {
+    border: 1px solid #fff;
+    margin-top: 17px;
+  }
+
+  .offcanvas-header {
+    background: #000;
+  }
+
+  .headermenusec {
+    color: #000;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 40px;
+  }
+
+  .navbar-nav {
+    margin: 0;
+  }
+
+  .classes .owl-dots,
+  .classes .owl-nav,
+  .testimonial .owl-nav {
+    display: none !important;
+  }
+
+  .secfootermenu {
+    flex-direction: column;
+  }
+
+  .container.py-3.sec-menu-bgg {
+    padding: 0px;
+  }
+
+  .container-fluid.secwhitpad.align-items-start {
+    padding: 0px;
+  }
+
+  #secdesktop {
+    display: none;
+  }
+
+  #secmobile {
+    display: block;
+  }
+
+  .secboyimg {
+    width: 84%;
+    margin-left: 0px;
+  }
+
+  .secpddmob {
+    padding: 0;
+  }
+
+  .secppbb {
+    padding: 0;
+  }
+
+  .secWelcome {
+    padding-top: 20px;
+  }
+
+  .secWelcome2 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+
+  .secrivw {
+    margin-left: 0px;
+    padding-top: 0px;
+  }
+
+  .secrevimg {
+    width: 50%;
+  }
+
+  .secrivw h4 {
+    padding-top: 20px;
+  }
+
+  .secsliderhome {
+    padding-top: 20px;
+  }
+
+  .homesnav {
+    display: none;
+  }
+
+  .stareheresec {
+    padding-top: 20px;
+    text-align: start;
+    position: relative;
+    z-index: 99;
+  }
+
+  .martext2,
+  .martext {
+    font-size: 16px;
+  }
+
+  .maeqsec1 {
+    background-color: #fff;
+    padding: 5px 0px 0px 0px;
+    transform: rotate(0deg);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .maeqsec2 {
+    background-color: #D20202;
+    padding: 5px 0px 0px 0px;
+    transform: rotate(0deg);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .secover {
+    padding: 40px 0px 5px 0px;
+  }
+
+  .secourtext {
+    font-size: 28px;
+  }
+
+  .secbtnhera {
+    font-size: 16px;
+  }
+
+  .sectoy {
+    padding-top: 30px;
+  }
+
+  .sectoy h4 {
+    font-size: 20px;
+    padding-bottom: 4px;
+  }
+
+  .sectoy p {
+    font-size: 16px;
+  }
+
+  .joinsectext {
+    font-size: 20px;
+  }
+
+  .secfitbgg {
+    margin-bottom: 20px;
+  }
+
+  #heronum.four {
+    width: 50%;
+  }
+
+  .secnu2 {
+    display: flex;
     align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .counter-box p {
+    font-size: 16px;
 }
-.maeqsec2 {
-  display: none;
+.counter-box span { 
+  font-size: 30px;
 }
-.maeqsec1 {
-  background-color: #4f4f4f;
-  padding: 0px 0px 0px 0px ;
-  transform: rotate(0deg);
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+#heronum .counter-box {
+  text-align: center;
+  border: 1px solid #D20202;
+  margin-bottom: 20px;
 }
-.secover {
-  overflow: hidden;
-  padding: 0px;
-  position: relative;
-  margin-top: 0px;
-}
-.trans h2 {
-  font-size: 32px;
-}
-.trans2 {
-  font-size: 16px;
-}
-.home-blogbg {
-  padding: 10px;
-  border-radius: 11px;
-  margin-bottom: 27px;
-}
-.home-blogbg h3 {
+div#secccounter h4 {
   font-size: 20px;
 }
-.ourpr h2 {
-  font-size: 31px;
-}
-.bg-prog {
-  padding: 30px 10px;
-}
-.ourpr p {
-  font-size: 16px;
-  padding-bottom: 30px;
-}
-.program-bbgg {
-  padding: 20px 10px;
-  margin-bottom: 30px;
-}
-.traning-text H3 {
-  font-size: 23px;
-  padding-left: 0px;
-}
-.traning-text p {
-  font-family: 'Open Sans';
-  color: #EEEEEE;
-  font-size: 16px;
-  padding-left: 0px;
-}
-.bg-tra {
-  margin-top: -10px;
-}
-.mobilteg{
-  padding-top: 0px !important;
-}
-.effect-image-1:hover .overlay-text-1 {
-  display: none;
-}
-.extra-tag h3 {
-  font-size: 25px;
-}
-.texxtEquipment {
-  font-size: 35px;
-  padding-top: 0px;
-}
-.mobilteg3{
-  padding: 0px !important;
-}
-.eqbgg {
-  padding: 10px;
-  margin-bottom: 30px;
-}
-.feedback-slider-item {
-  position: relative;
-  padding: 0px;
-   margin-top: 0px;
-}
-.customer-feedback.pb-5 {
-  padding-bottom: 0px !important;
-}
-.feedtext p {
-  padding-top: 10px;
-}
-.ledthh {
-  font-size: 30px;
-}
-.letbgg {
-  background-image: url(../images/letbgg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-   height: auto;
-}
-.modalmobile{
-  padding: 10px;
-}
-.footer-bg {
-  background: #0D141E;
-  padding: 20px 0px 20px 0px !important;
-}
-.seccont4 p a {
-  font-size: 14px;
-}
-.Copyrsec {
-  text-align: center;
-  font-size: 14px;
-  padding-top: 20px;
-}
-.paddhero2 h4 {
-  color: #fff;
-  font-size: 27px;
-  font-family: "Montserrat";
- 
-}
-.paddhero2 p {
-  font-size: 14px;
-}
-.Copyrsec2 {
-  text-align: center;
-}
-.feedback-slider-item:after {
-  left: 30px;
-  right: 30px;
-}
-.customer-feedback .owl-nav [class*="owl-"] {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-top: 45px;
-  bottom: auto;
-}
-.customer-feedback .owl-prev {
-  left: 0;
-}
-.customer-feedback .owl-next {
-  right: 0;
-}
-.effect-image-1 {
-  margin: 30px 0px;
-}
-.heaname h1 {
-  font-size: 34px;
-  padding-top: 0px;
+.secheading h4 {
+  font-size: 36px;
   padding-bottom: 20px;
 }
-.blogbgg4 {
-  padding: 30px 10px;
-  margin-top: 0px;
+.seclassbg {
+  padding: 50px 10px 80px 10px;
 }
-.aboutbg2 {
-  height: auto;
+.aecbggvideo2 {
+  margin-top: -36px;
 }
-.marrabout {
-  padding: 0px 10px 60px 10px;
-  margin-top: -2px;
+.secbttab{
+  padding: 0px !important;
 }
-.secabouttext p {
-  font-size: 16px;
+.secabutext h4 {
+  font-size: 25px;
+  padding-top: 15px;
 }
-.secvisbgg {
-  padding: 30px 10px;
+.aecbggvideo {
+  padding-bottom: 50px;
 }
-.secvisintext {
-  font-size: 30px;
-}
-.secvisintext2 {
-  font-size: 16px;
-}
-.foundd-bgg {
-  padding: 30px 10px;
-}
-.flodbackmargin {
+.sectstimtbg {
+  background-color: #000;
+  width: 100%;
+  margin: auto;
   padding: 20px;
-  margin-left: 0px !important;
-  margin: 10px 0px 0px 0px;
-}
-.flodbackmargin h2 {
-  font-size: 30px;
-}
-.flodbackmargin p {
-  font-size: 16px;
-}
-.secteainer-bg {
-  padding: 30px 30px;
-  margin-bottom: 30px;
-}
-.secteainer-bg h3 {
-  font-size: 30px;
-}
-.blogmain {
   margin-top: 0px;
 }
-.blogbgg {
-  padding: 30px 10px;
+.sectstimtbg img {
+  width: 14% !important;
+  margin-top: 0px;
 }
-.secand{
-  padding: 0px;
-}
-.secmemberpp p {
+.sectstimtbg p {
   font-size: 16px;
 }
-.secmemberbg {
-  padding: 30px 12px;
-  margin-bottom: 40px;
+.seccmemberbg {
+  padding: 50px 10px;
 }
-.secmemberbg p {
-  font-size: 16px;
+.memherhead {
+  font-size: 24px;
+  margin: 0px;
 }
-.aboutbg22 {
-  height: auto;
+.memherhead2 {
+  margin: auto;
+  width: 100%;
+  padding-top: 10px;
 }
-.secgetpe{
-  padding: 0px;
-}
-.text-left {
-  text-align: left;
-  margin-bottom: 30px;
-}
-.sec-cont-hh2 {
+.secbassbg h4 {
   font-size: 25px;
 }
-.seccont-add-p {
-  font-size: 16px;
-  word-wrap: break-word;
+.secccbgord {
+  border-right: none;
+  border-bottom: 1px solid #D20202;
+  padding-top: 0;
+  margin-top: 40px;
 }
+.row.pt-4 {
+  padding: 0px !important;
+}
+.secbassbg p {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+.secnumpa {
+  font-size: 45px;
+  line-height: 0px;
+}
+.secnumbb span {
+  font-size: 20px;
+}
+.secmoder {
+  font-size: 30px;
+}
+.secoff h4 {
+  font-size: 22px;
+}
+.secfacbg {
+  display: flex
+;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.secmodimg {
+  padding-top: 30px;
+}
+.secfooterbg {
+  background-color: #000;
+  padding: 50px 10px 100px 10px;
+}
+.aectem {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.aectem2 {
+  text-align: center;
+}
+.secass2 {
+  padding-top: 20px;
+}
+.addresssec {
+  font-size: 17px;
+}
+.secfootermenu p {
+  padding-right: 0;
+  text-align: center;
 }
 
+.secfootermenu p a {
+  font-size: 18px;
+}
 
-
-
-
-
+}

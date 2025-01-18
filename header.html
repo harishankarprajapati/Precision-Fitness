@@ -49,18 +49,39 @@
 
 
 
-    <!-- whatsapp -->
-    <!--    
- <div class="floating_btn">
-  <a target="_blank" href="https://wa.me/9981423955">
-    <div class="contact_icon">
-      <i class="fa-brands fa-whatsapp "></i>
-    </div>
-  </a>
-  <p class="text_icon">Talk to us?</p>
-</div> -->
-
-
-
   </div>
 </div>
+
+   <!-- wharshapp -->
+   <div class="floating_btn">
+    <a target="_blank" href="https://wa.me/+917347310333">
+      <div class="contact_icon">
+        <i class="fa-brands fa-whatsapp "></i>
+      </div>
+    </a>
+    <p class="text_icon">Talk to us?</p>
+  </div>
+
+  
+<!-- Back to top button -->
+<a id="button"></a>
+
+
+<script>
+  var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
+ </script>

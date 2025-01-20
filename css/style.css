@@ -960,6 +960,9 @@ a {
      margin: 30px;
    }
  }
+ p.secdiet img {
+   padding-bottom: 10px;
+}
  .content h1 {
    margin-bottom: -10px;
    color: #03a9f4;

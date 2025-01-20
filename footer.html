@@ -1,3 +1,31 @@
+    <!-- footer-slider -->
+    <div class="container-fluid ftslibg">
+      <div class="owl-carousel footerslider owl-theme">
+          <div class="item">
+              <img class="img-fluid" src="images/footerslider1.png" alt="">
+          </div>
+          <div class="item">
+              <img class="img-fluid" src="images/footerslider2.png" alt="">
+          </div>
+          <div class="item">
+              <img class="img-fluid" src="images/footerslider3.png" alt="">
+          </div>
+          <div class="item">
+              <img class="img-fluid" src="images/footerslider4.png" alt="">
+          </div>
+          <div class="item">
+              <img class="img-fluid" src="images/footerslider5.png" alt="">
+          </div>
+          <div class="item">
+              <img class="img-fluid" src="images/footerslider6.png" alt="">
+          </div>
+          <div class="item">
+              <img class="img-fluid" src="images/footerslider4.png" alt="">
+          </div>
+      </div>
+  </div>
+
+
 <!-- footer -->
  <div class="container-fluid secfooterbg">
   <div class="container">
@@ -5,11 +33,11 @@
       <a href="index.html"><img class="img-fluid" src="images/main-logo.png" alt=""></a>
     </div>
     <div class="secfootermenu">
-      <p> <a href="#">Home</a></p>
-      <p> <a href="#">About Us</a></p>
-      <p> <a href="#">Membership</a></p>
-      <p> <a href="#">Facilities</a></p>
-      <p> <a href="#">Contact Us</a></p>
+      <p> <a href="index.html">Home</a></p>
+      <p> <a href="about.html">About Us</a></p>
+      <p> <a href="membership.html">Membership</a></p>
+      <p> <a href="classes.html">Classes</a></p>
+      <p> <a href="contact.html">Contact Us</a></p>
     </div>
     <p class="addresssec secass2"><a href="#"> <i class="fa-solid fa-location-crosshairs"></i> F24 ram Ganga Vihar, Near Wave Cinema, Moradabad, U.P. 244001</a></p>
     <p class="addresssec "><a href="tel: +91 6396641519"> <i class="bi bi-telephone"></i> Phone : +91 63966 41519</a></p>
@@ -35,3 +63,23 @@
   </div>
  </div>
 
+ <script>
+
+  $('.owl-carousel.footerslider').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+          0: {
+              items: 2.5
+          },
+          600: {
+              items: 3.5
+          },
+          1000: {
+              items: 6
+          }
+      }
+  })
+
+  </script>

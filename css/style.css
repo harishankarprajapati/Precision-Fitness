@@ -75,8 +75,11 @@
 }
 
 .secWelcome2 {
-   padding-top: 80px;
+   padding-top: 120px;
    padding-bottom: 50px;
+}
+.four {
+   padding-bottom: 40px;
 }
 
 .counter-box span {
@@ -381,7 +384,7 @@ div#secccounter p {
    /* top: -40px; */
    height: 40px;
    width: 100%;
-   padding: 0px 10px;
+   padding: 0px 15px;
    background-color: #d202029c;
    border-bottom: 2px solid #444;
    transition: all .5s;
@@ -400,14 +403,21 @@ div#secccounter p {
 
 .secheaddhove {
    font-family: 'Roboto';
-   font-size: 25px;
+   font-size: 20px;
    font-weight: 700;
    color: #FFF;
+   padding-top: 15px;
+   margin: 0;
+   padding-bottom: 15px;
+   
+}
+.secclapad{
+   padding-bottom: 40px;
 }
 
 .sectexthov {
    font-family: 'Roboto';
-   font-size: 15px;
+   font-size: 16px;
    color: #FFF;
 }
 
@@ -436,7 +446,7 @@ div#secccounter p {
 
 .secgyntext h4 {
    font-family: 'Roboto';
-   font-size: 25px;
+   font-size: 20px;
    color: #FFF;
    font-weight: 700;
 }
@@ -549,9 +559,10 @@ div#secccounter p {
 }
 
 .sectestimonialbg {
-   background-color: #383838;
+   background-color: #383838 !important;
    padding: 50px 10px;
 }
+
 
 .sectstimtbg {
    background-color: #000;
@@ -762,6 +773,7 @@ div#secccounter p {
 .ftslibg{
    padding: 0;
    background-color: #000;
+   padding-top: 50px;
 }
 .footerslider img{
    padding:0px;
@@ -962,3 +974,499 @@ a {
  #secmobile{
 display: none;
  }
+
+ /* about */
+
+ 
+.aboutbg2 {
+   background-image: url(../images/aboutpagebackground.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom;
+   height: 500px;
+
+}
+.heaname h1 {
+   font-family: 'Questrial';
+   font-size: 70px;
+   color: #fff;
+   text-transform: capitalize;
+   font-weight: 900;
+   text-align: center;
+   padding-top: 80px;
+}
+.marrabout {
+   background-color: #030303;
+   padding: 0px 100px 60px 100px;
+   margin-top: -10px;
+}
+.secabouttext h3 {
+   font-family: 'Montserrat';
+   font-size: 25px;
+   color: #fff;
+   text-transform: uppercase;
+}
+.secabouttext p {
+   color: #fff;
+   font-family: "Questrial";
+   font-size: 20px;
+}
+.secvisbgg {
+   background-color: #25201B;
+   padding: 50px 100px;
+}
+.secvisintext {
+   font-family: 'Questrial';
+   font-size: 60px;
+   color: #fff;
+   font-weight: 700;
+}
+.secvisintext2 {
+   color: #fff;
+   font-family: "Questrial";
+   font-size: 20px;
+}
+.foundd-bgg {
+   background-color: #000;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 60px 100px;
+}
+.foundd-bgg2{
+   background-image: url(../images/Founderbg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 60px 0px;
+}
+.flodbackmargin {
+   background: #000;
+   padding: 40px;
+   margin-left: -100px !important;
+   margin: 60px 40px 40px 40px;
+}
+.flodbackmargin h2 {
+   font-family: 'Questrial';
+   font-size: 40px;
+   color: #fff;
+   font-weight: 500;
+}
+.flodbackmargin p {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 18px;
+}
+.secteainer-bg {
+   background-color: #313131;
+   padding: 60px 60px;
+}
+.secteainer-bg h3 {
+   font-family: 'Montserrat';
+   font-size: 60px;
+   color: #fff;
+   text-transform: capitalize;
+   font-weight: 700;
+}
+.secteainer-bg h3 span {
+    color: #E41C1F !important;
+}
+
+ /* CAROUSEL STARTS testimonial */
+ .customer-feedback .owl-item img {
+   width: 100%;
+   border-radius: 0;
+   border-left: 4px solid red;
+ }
+ 
+ .feedback-slider-item {
+   position: relative;
+   padding: 60px;
+   margin-top: -40px;
+ }
+ .feedback-slider .owl-nav {
+   display: none;
+}
+ .customer-rating {
+   background-color: #eee;
+   border: 3px solid #fff;
+   color: rgba(1, 1, 1, 0.702);
+   font-weight: 700;
+   border-radius: 50%;
+   position: absolute;
+   width: 47px;
+   height: 47px;
+   line-height: 44px;
+   font-size: 15px;
+   right: 0;
+   top: 77px;
+   text-indent: -3px;
+ }
+ 
+ .thumb-prev .customer-rating {
+   top: -20px;
+   left: 0;
+   right: auto;
+ }
+ 
+ .thumb-next .customer-rating {
+   top: -20px;
+   right: 0;
+ }
+ 
+ .customer-rating i {
+   color: rgb(251, 90, 13);
+   position: absolute;
+   top: 10px;
+   right: 5px;
+   font-weight: 600;
+   font-size: 12px;
+ }
+ /* GREY BACKGROUND COLOR OF THE ACTIVE SLIDER */
+ .feedback-slider-item:after {
+   content: '';
+   position: absolute;
+   background-image: url(../images/Testimonials.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 1150px;
+   left: 20px;
+   right: 20px;
+   bottom: 0;
+   top: 345px;
+   z-index: -1;
+ }
+ 
+ .thumb-prev,
+ .thumb-next {
+   position: absolute;
+   z-index: 99;
+   top: 45%;
+   width: 98px;
+   height: 98px;
+   left: -90px;
+   cursor: pointer;
+   -webkit-transition: all .3s;
+   transition: all .3s;
+ }
+ 
+ .thumb-next {
+   left: auto;
+   right: -90px;
+ }
+ 
+ .feedback-slider-thumb img {
+   width: 100%;
+ }
+ 
+ .feedback-slider-thumb:hover {
+   opacity: .8;
+   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+ }
+ 
+ .customer-feedback .owl-nav [class*="owl-"] {
+   position: relative;
+   display: inline-block;
+   bottom: 45px;
+   transition: all .2s ease-in;
+ }
+ 
+ .customer-feedback .owl-nav i {
+   background-color: transparent;
+   color: rgb(251, 90, 13);
+   font-size: 25px;
+ }
+ 
+ .customer-feedback .owl-prev {
+   left: -15px;
+ }
+ 
+ .customer-feedback .owl-prev:hover {
+   left: -20px;
+ }
+ 
+ .customer-feedback .owl-next {
+   right: -15px;
+ }
+ 
+ .customer-feedback .owl-next:hover {
+   right: -20px;
+ }
+ 
+ /* DOTS */
+ .customer-feedback .owl-dots {
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   bottom: 35px;
+ }
+ .customer-feedback .owl-dot {
+   display: inline-block;
+ }
+ 
+.feedtext p{
+   color: #000;
+   text-align: left !important;
+   font-size: 16px;
+   font-family: "Manrope";
+}
+.feedtext h3{
+   color: #000;
+   text-align: left !important;
+   font-size: 22px;
+   font-weight: 700  ;
+   font-family: "Manrope";
+}
+.customer-name{
+   color: #000;
+   text-align: left !important;
+   font-size: 15px;
+   font-family: "Manrope";
+}
+.thumb-next span{
+   background: #E41C1F;
+   display:block;
+}
+.thumb-next span img {
+   opacity: 0.5 !important;
+}
+.thumb-next span img:hover {
+   opacity: 1 !important;
+}
+.thumb-prev span{
+   background: #E41C1F;
+   display:block;
+} 
+.thumb-prev span img {
+   opacity: 0.5 !important;
+}
+.thumb-prev span img:hover {
+   opacity: 1 !important;
+}
+.sectestimonialbg{
+   background-color: #000;
+}
+.sectestimonialbg2{
+   background-color: #fff;
+   background-image: url(../images/testimbgg.png);
+   background-position: 92% 6%;
+   background-repeat: no-repeat;
+   padding: 80px 10px;
+}
+.feedback-slider-item:after {
+   content: '';
+   position: absolute;
+   background-image: url(../images/Testimonials.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 1150px;
+   left: 20px;
+   right: 20px;
+   bottom: 0;
+   top: 345px;
+   z-index: -1;
+}
+.letbgg {
+   background-image: url(../images/letbgg.png);
+   background-color: #000;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 400px;
+   padding: 60px 10px;
+}
+.ledthh {
+   color: #fff;
+   font-size: 50px;
+   font-family: "Montserrat";
+   font-weight: 700;
+}
+/* member */
+.secmemberpp p {
+   text-align: center;
+   color: #fff;
+   font-family: 'Montserrat';
+   font-size: 20px;
+}
+ 
+.secmemberbg2 {
+   background-image: url(../images/memberbgg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom;
+   height: 900px;
+
+}
+.memversecb{
+   margin-top: -350px;
+}
+.blogbgg4 {
+   background-color: #191C23;
+   padding: 60px;
+   margin-top: -150px;
+}
+.secmemberbg {
+   background-color: #fff;
+   padding: 40px 30px;
+}
+.secmemberbg h2 {
+   font-family: 'Questrial';
+   font-size: 50px;
+   text-align: center;
+   color: #000;
+   font-weight: 700;
+}
+.secmemberbg h4 {
+   color: #E41C1F;
+   font-size: 20px;
+   font-weight: 700;
+   font-family: 'Montserrat';
+   text-align: center;
+   padding-bottom: 10px;
+}
+.secmemberbg p span {
+   color: #E41C1F;
+   font-size: 20px;
+   font-weight: 700;
+   font-family: 'Montserrat';
+}
+.secmemberbg p {
+   color: #000;
+   font-size: 19px;
+   font-weight: 500;
+   font-family: 'Montserrat';
+}
+.secptagemember {
+   padding: 20px 0px 60px 0px;
+}
+.secmemberbtn {
+   text-align: center;
+   padding-bottom: 30px;
+}
+.secmemberbtn a {
+   background-color: #E41C1F;
+   padding: 15px 30px;
+   color: #fff;
+   font-size: 20px;
+   font-weight: 600;
+   font-family: 'Montserrat';
+   text-decoration: none;
+   text-transform: uppercase;
+   border-radius: 10px;
+}
+.secmemberbtn a:hover {
+   background-color: #000;
+}
+/* classes */
+
+ 
+.secmemberbg22 {
+   background-image: url(../images/memberbgg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom;
+   height: 700px;
+
+}
+
+ .navbar-toggler-icon {
+   background-image: url(../images/menu.svg) !important;
+ }
+
+.secandclass{
+   background-color: #000;
+}
+
+/* contact us */
+
+
+.secandclass22{
+   background-color: #000;
+   padding-bottom: 50px;
+}
+
+.sec-cont-hh {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   color: #fff;
+}
+.sec-cont-pp {
+   font-family: 'Manrope';
+   font-weight: 400;
+   font-size: 20px;
+   color: #fff;
+   padding-bottom: 20px;
+}
+.form-group label {
+   color: #fff;
+}
+.sec-menu-btn2 {
+   background: #E41C1F;
+   font-family: 'Manrope';
+   font-style: normal;
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 24px;
+   color: #fff;
+   padding: 15px 30px;
+   border: none;
+}
+.sec-menu-btn2:hover {
+   background: #FFF;
+   color: #000;
+}
+.contbgg {
+   background: #fff;
+   padding: 20px;
+}
+.seccont-add-h {
+   font-family: 'Manrope';
+   font-size: 20px;
+   line-height: 150%;
+   font-weight: 700;
+   color: #000000;
+}
+.seccont-add-h span i {
+   color: #E41C1F;
+}
+.seccont-add-p {
+   font-family: 'Manrope';
+   font-weight: 400;
+   font-size: 18px;
+   color: #000000;
+   text-decoration: none;
+}
+.iconsc span i {
+   color: #E41C1F;
+}
+.sec-cont-hh2 {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 30px;
+   color: #000;
+}
+.secmobileenjoy {
+   display: none;
+}
+   
+.classes2 .owl-nav {
+   display: none !important;
+}
+
+
+.classes2 .owl-dots {
+   text-align: center !important;
+   padding-top: 20px;
+}
+
+.classes2 button.owl-dot {
+   background: #9C9C9C !important;
+   margin-left: 10px;
+   padding: 5px;
+   border-radius: 50px;
+}
+
+.classes2 button.owl-dot.active {
+   background: #D20202 !important;
+}

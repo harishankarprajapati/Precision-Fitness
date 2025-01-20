@@ -1473,3 +1473,28 @@ display: none;
 .classes2 button.owl-dot.active {
    background: #D20202 !important;
 }
+.aboutbg23 {
+   background-image: url(../images/aboutpagebackground.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom;
+   height: 350px;
+
+}
+.secprivay{
+   padding: 50px 0px;
+   background-color: #000;
+   color: #fff;
+}
+.secprivay h3{
+   padding-top: 20px;
+}
+.secprivay h4{
+   padding-top: 20px;
+}
+.secprivay p{
+   font-size: 16px;
+}
+.secprivay p ul li{
+   font-size: 16px;
+}

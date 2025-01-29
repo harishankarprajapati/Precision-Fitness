@@ -19,11 +19,7 @@
 @media only screen and (max-width:1440px) {}
 
 
-/* 1024 */
-@media only screen and (min-width:1024px) {
 
-
-}
 
 /*  */
 @media only screen and (max-width:999px) {
@@ -701,6 +697,9 @@ color: #000 !important;
 .foundd-bgg2 {
   width: auto !important;
 }
+.sec404bg {
+  margin-top: -180px;
+}
 }
 
 @media only screen and (max-width:425px) {
@@ -726,7 +725,9 @@ color: #000 !important;
 .secmemberpp p {
   font-size: 14px;
 }
-
+.secprivay2 {
+  margin-bottom: -109px;
+}
 }
 
 

@@ -797,7 +797,8 @@ div#secccounter p {
    justify-content: center;
 }
 .secfootermenu p {
-   padding-right: 40px;
+   padding: 0px 30px;
+    text-align: center;
 }
 .secfootermenu p a {
   font-family: 'Roboto';
@@ -1505,4 +1506,10 @@ display: none;
 }
 .sec404bg{
    margin-top: -300px;
+}
+.ffgggcc {
+   padding: 0;
+}
+.ffgggcc2{
+   padding-right: 0px;
 }
